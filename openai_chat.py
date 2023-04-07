@@ -10,7 +10,8 @@ openai.api_key = "API_KEY"
 
 history = []
 while True:
-    user_input = input("Q: " + Style.BRIGHT + Fore.RED)
+    print(Style.BRIGHT + Fore.RED)
+    user_input = input("Q: ")
     print(Style.RESET_ALL)
     if user_input.upper() == "QUIT":
         break
